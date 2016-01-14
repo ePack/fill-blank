@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <title>ePack: Fill Blank</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+  <link rel="import" href="../epack-fill-blank.html">
+</head>
+<body>
+
+  <epack-fill-blank></epack-fill-blank>
+
+  <script>
+    var efb = document.querySelector('epack-fill-blank');
+    addEventListener('WebComponentsReady', function () {
+      efb.value = "";
+      efb.label = "Example Label";
+    });
+  </script>
+
+</body>
+</html>
