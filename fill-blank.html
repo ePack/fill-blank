@@ -1,0 +1,16 @@
+<link rel="import" href="../paper-input/paper-input.html">
+
+<dom-module id="epack-fill-blank">
+  <template>
+    <paper-input value="{{value}}" label="{{label}}"></paper-input>
+  </template>
+  <script>
+    Polymer({
+      is: 'epack-fill-blank',
+      properties: {
+        value: String,
+        label: String
+      }
+    });
+  </script>
+</dom-module>
