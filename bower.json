@@ -6,7 +6,7 @@
     "Maik Hummel <maik@eclip.io>"
   ],
   "description": "",
-  "main": "fill-blank.html",
+  "main": "epack-fill-blank.html",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
